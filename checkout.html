@@ -38,7 +38,7 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col col-lg-8 order-12 order-lg-12 mt-5 mt-lg-0">
                     <form action="" class="form">
                         <div class="form-row">
                             <div class="col-12">
@@ -76,6 +76,12 @@
                         <div class="form-row mb-3">
                             <label for="address">Address</label>
                             <input type="text" class="form-control" id="address" placeholder="123 Main St" required>
+                        </div>
+                        <div class="form-row mb-3">
+                            <label for="address">Address 2
+                                <span class="text-secondary"> (optional)</span>
+                            </label>
+                            <input type="text" class="form-control" id="address" placeholder="Apartment" required>
                         </div>
                         <div class="form-row mb-3">
                             <div class="col-sm-5">
@@ -166,7 +172,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-lg-4">
+                <div class="col col-lg-4 order-1 order-lg-12">
                     <div class="d-flex flex-row justify-content-between">
                         <small>Your cart</small>
                         <small class="badge badge-secondary badge-pill text-slient">3</small>
@@ -205,7 +211,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card promotion">
+                        <div class="card promotion bg-light">
                             <div class="card-body d-flex flex-row justify-content-between">
                                 <div class="info-course">
                                     <h6 class="card-title mb-0 text-success">Promotion code</h6>
@@ -226,11 +232,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card redeem">
+                        <div class="card redeem mt-4">
                             <div class="card-body">
                                 <form>
-                                    <div class="form-row">
-
+                                    <div class="form-row d-flex flex-row flex-nowrap">
+                                        <input type="text" placeholder="Promo code" id="redeem-code" name="redeem-code">
+                                        <a href="#" class="btn btn-block btn-secondary">Redeem</a>
                                     </div>
                                 </form>
                             </div>
@@ -240,4 +247,16 @@
             </div>
         </div>
     </main>
+    <footer>
+        <div class="container">
+            <center>
+                <small> © 2018-2019. CoderSchool</small>
+                <div>
+                    <a class="mx-2" href="#"><small>Privacy</small></a>
+                    <a class="mx-2" href="#"><small>Terms</small></a>
+                    <a class="mx-2" href="#"><small>Support</small></a>
+                </div>
+            </center>
+        </div>
+    </footer>
 </body>

@@ -1,3 +1,6 @@
+body{
+    background-color: #f8f9fa !important;
+}
 .box-shadow { 
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); 
 }
@@ -6,4 +9,18 @@
 }
 .card-body{
     padding: 0.7rem 1.25rem !important;
+}
+.redeem input{
+    width: 55rem;
+    padding: 0 10px;
+}
+.redeem a {
+    border-radius: unset;
+}
+.redeem .card-body{
+    padding: .5rem .8rem !important;
+}
+footer {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
 }
