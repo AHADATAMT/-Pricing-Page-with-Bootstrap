@@ -1,3 +1,9 @@
 .box-shadow { 
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); 
-    }
+}
+.card {
+    margin-top: -1px;
+}
+.card-body{
+    padding: 0.7rem 1.25rem !important;
+}
